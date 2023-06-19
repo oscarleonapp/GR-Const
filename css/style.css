@@ -544,7 +544,7 @@ section {
 
 .services .box-container .box {
   text-align: center;
-  padding: 3rem;
+  padding: 2.2rem;
   background: var(--white);
   -webkit-box-shadow: var(--box-shadow);
   box-shadow: var(--box-shadow);
