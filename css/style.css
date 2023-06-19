@@ -688,6 +688,8 @@ section {
 .reviews .slide .user img {
   height: 7rem;
   width: 7rem;
+  border-radius: 50%;
+  border: 2px solid #f5bf23;
 }
 
 .reviews .slide .user h3 {
