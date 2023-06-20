@@ -633,7 +633,6 @@ section {
 .projects .box-container .box .content .info h3 {
   font-size: 1.7rem;
   color: var(--black);
-  text-transform: capitalize;
   text-align: center;
 }
 
