@@ -603,7 +603,7 @@ section {
 }
 
 .projects .box-container .box .image {
-  height: 40rem;
+  height: 25rem;
   overflow: hidden;
 }
 
@@ -635,12 +635,14 @@ section {
   font-size: 1.7rem;
   color: var(--black);
   text-transform: capitalize;
+  text-align: center;
 }
 
 .projects .box-container .box .content .info p {
   font-size: 1.5rem;
   color: var(--light-color);
-  line-height: 2;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .projects .box-container .box .content i {
