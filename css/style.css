@@ -590,6 +590,7 @@ section {
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 2rem;
+
 }
 
 .projects .box-container .box {
@@ -604,6 +605,9 @@ section {
 .projects .box-container .box .image {
   height: 25rem;
   overflow: hidden;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .projects .box-container .box .image img {
@@ -625,10 +629,13 @@ section {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  border-radius: 0px 0px 5px 5px;
 }
 
 .projects .box-container .box .content .info {
   padding: 1rem 2rem;
+  background-color: #eeeeee;
+  border-radius: 0 0 5px 5px;
 }
 
 .projects .box-container .box .content .info h3 {
