@@ -577,7 +577,7 @@ section {
 }
 
 .projects {
-  background: #13161C;
+  background: #343541;
 }
 
 .projects .heading {
@@ -613,7 +613,8 @@ section {
   object-fit: cover;
   -webkit-transition: .2s linear;
   transition: .2s linear;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
+  cursor: pointer;
 }
 
 .projects .box-container .box .content {
