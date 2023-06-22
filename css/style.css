@@ -437,7 +437,7 @@ section {
   height: 4rem;
   width: 3rem;
   /* line-height: 7rem; */
-  background: var(--white);
+  background: #FBFBFC;
 }
 
 .home .swiper-button-next:hover,
@@ -530,7 +530,7 @@ section {
 }
 
 .services {
-  background: var(--light-bg);
+  background: #FBFBFC;
 }
 
 .services .box-container {
@@ -577,7 +577,8 @@ section {
 }
 
 .projects {
-  background: #343541;
+  /* background: #343541; */
+  background-color: #161822;
 }
 
 .projects .heading {
@@ -606,7 +607,7 @@ section {
   height: 25rem;
   overflow: hidden;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #222532;
 }
 
 .projects .box-container .box .image img {
@@ -624,7 +625,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: var(--white);
+  background: #222532;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -633,19 +634,19 @@ section {
 
 .projects .box-container .box .content .info {
   padding: 1rem 2rem;
-  background-color: #eeeeee;
+  background-color: #222532;
   border-radius: 0 0 5px 5px;
 }
 
 .projects .box-container .box .content .info h3 {
   font-size: 1.7rem;
-  color: var(--black);
+  color: #f5bf23;
   text-align: center;
 }
 
 .projects .box-container .box .content .info p {
   font-size: 1.5rem;
-  color: var(--light-color);
+  color: #eee;
   line-height: 1.5;
   text-align: center;
 }
@@ -832,7 +833,7 @@ section {
 }
 
 .blogs {
-  background: var(--light-bg);
+  background: #FBFBFC;
 }
 
 .blogs .slide {
@@ -862,12 +863,13 @@ section {
   border-radius: 5px 5px 0px 0px;
 }
 
+/* Aqui */
 .blogs .slide .content {
-  padding: 2rem;
+  /* padding: 5rem; */
   padding-top: 5rem;
-  background: var(--white);
-  -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+  background: #fff;
+  /* -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2); */
   border-radius: 0px 0px 5px 5px;
 }
 
@@ -908,7 +910,7 @@ section {
 .footer .credit {
   font-size: 2rem;
   color: var(--black);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-top: 2rem;
   padding-top: 1rem;
 }
