@@ -69,7 +69,7 @@ section {
   color: var(--white);
   cursor: pointer;
   font-size: 1.7rem;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   -webkit-transition: .2s linear;
   transition: .2s linear;
   border-radius: 5px;
@@ -876,7 +876,7 @@ section {
 .blogs .slide .content h3 {
   font-size: 2rem;
   color: var(--black);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .blogs .slide .content p {
