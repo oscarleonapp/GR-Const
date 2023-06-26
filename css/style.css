@@ -44,6 +44,12 @@ section {
   padding: 5rem 10%;
 }
 
+.idioma-ingles {
+  background-color: #b31c31;
+  padding: 0px 10px 0px 10px;
+  border-radius: 5px;
+}
+
 .heading {
   margin-bottom: 3rem;
   font-size: 3rem;
@@ -131,6 +137,10 @@ section {
   color: var(--black);
   text-transform: capitalize;
   margin: 0 1rem;
+}
+
+.header .navbar a.idioma-ingles {
+  color: white;
 }
 
 .header .navbar a:hover {
