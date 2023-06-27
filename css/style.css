@@ -143,6 +143,10 @@ section {
   color: white;
 }
 
+.header .navbar a.idioma-ingles:hover {
+  color: white;
+}
+
 .header .navbar a:hover {
   color: var(--yellow);
 }
