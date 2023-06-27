@@ -644,12 +644,12 @@ section {
 
 .projects .box-container .box .content .info {
   padding: 1rem 2rem;
-  background-color: #666;
+  background-color: #555454;
   border-radius: 0 0 5px 5px;
 }
 
 .projects .box-container .box .content .info h3 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: #fff;
   text-align: center;
 }
@@ -884,14 +884,14 @@ section {
 }
 
 .blogs .slide .content h3 {
-  font-size: 2rem;
+  font-size: 1.4rem;
   color: var(--black);
   /* text-transform: capitalize; */
 }
 
 .blogs .slide .content p {
   padding: 1rem 0;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--light-color);
   line-height: 2;
 }
