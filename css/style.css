@@ -618,6 +618,8 @@ section {
   overflow: hidden;
   padding: 1rem;
   background-color: #FFFFFF;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px 5px 0 0;
 }
 
 .projects .box-container .box .image img {
@@ -646,6 +648,7 @@ section {
   padding: 1rem 2rem;
   background-color: #555454;
   border-radius: 0 0 5px 5px;
+
 }
 
 .projects .box-container .box .content .info h3 {
@@ -881,6 +884,7 @@ section {
   /* -webkit-box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2); */
   /* box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2); */
   border-radius: 0px 0px 5px 5px;
+  /* box-shadow: var(--box-shadow); */
 }
 
 .blogs .slide .content h3 {
