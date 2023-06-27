@@ -646,14 +646,14 @@ section {
 
 .projects .box-container .box .content .info {
   padding: 1rem 2rem;
-  background-color: #555454;
+  background-color: #D5DBDB;
   border-radius: 0 0 5px 5px;
 
 }
 
 .projects .box-container .box .content .info h3 {
   font-size: 1.5rem;
-  color: #fff;
+  color: #111;
   text-align: center;
 }
 
