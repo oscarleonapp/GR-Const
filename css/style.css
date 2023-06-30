@@ -926,7 +926,7 @@ section {
 }
 
 .footer .credit {
-  font-size: 2rem;
+  font-size: 1.3rem;
   color: var(--black);
   /* text-transform: capitalize; */
   margin-top: 2rem;
