@@ -774,6 +774,17 @@ section {
   color: var(--white);
 }
 
+.pricing .box-container .box img {
+  font-size: 3rem;
+  height: 15rem;
+  width: 15rem;
+  /* line-height: 1rem; */
+  /* border-radius: 50%; */
+  margin-bottom: 1rem;
+  /* background: var(--blue); */
+  color: var(--white);
+}
+
 .pricing .box-container .box h3 {
   font-size: 2rem;
   color: var(--blue);
