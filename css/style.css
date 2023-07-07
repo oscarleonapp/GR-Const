@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
 
 :root {
-  --yellow: #f5bf23;
   --black: #000000;
   --blue: #09244C;
   --green: #48B538;
@@ -433,6 +432,8 @@ section {
   color: var(--blue);
   line-height: 2;
   padding: 1rem 0;
+  font-weight: bold;
+  text-align: justify;
 }
 
 .home .swiper-button-next,
@@ -507,6 +508,7 @@ section {
   color: var(--light-color);
   line-height: 2;
   padding: 1rem 0;
+  text-align: justify;
 }
 
 .about .row .content ul {
@@ -776,8 +778,8 @@ section {
 
 .pricing .box-container .box img {
   font-size: 3rem;
-  height: 15rem;
-  width: 15rem;
+  /* height: 10rem; */
+  width: 100%;
   /* line-height: 1rem; */
   /* border-radius: 50%; */
   margin-bottom: 1rem;
