@@ -98,7 +98,7 @@ var swiper = new Swiper(".logo-slider", {
          slidesPerView: 3,
       },
       1000: {
-         slidesPerView: 3,
+         slidesPerView: 4,
       },
    },
 });
