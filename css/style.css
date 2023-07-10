@@ -559,6 +559,10 @@ section {
   background: var(--bg-section);
 }
 
+.misionvision {
+  background: var(--white);
+}
+
 .services .box-container {
   display: -ms-grid;
   display: grid;
