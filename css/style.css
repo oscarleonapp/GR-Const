@@ -450,12 +450,18 @@ section {
 
 .home .swiper-button-next:hover,
 .home .swiper-button-prev:hover {
-  background: var(--skyblue);
+  background: var(--blue);
 }
 
 .home .swiper-button-next::after,
 .home .swiper-button-prev::after {
   font-size: 2rem;
+  color: var(--green);
+}
+
+.logo-container .swiper-button-next::after,
+.logo-container .swiper-button-prev::after {
+  font-size: 3rem;
   color: var(--blue);
 }
 
@@ -604,6 +610,7 @@ section {
   font-size: 1.4rem;
   color: var(--light-color);
   line-height: 2;
+  text-align: center;
 }
 
 .projects {

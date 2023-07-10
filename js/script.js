@@ -82,7 +82,11 @@ var swiper = new Swiper(".blogs-slider", {
 var swiper = new Swiper(".logo-slider", {
    loop: true,
    grabCursor: true,
-   spaceBetween: 20,
+   spaceBetween: 5,
+   navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+   },
    breakpoints: {
       450: {
          slidesPerView: 2,
@@ -91,10 +95,10 @@ var swiper = new Swiper(".logo-slider", {
          slidesPerView: 3,
       },
       768: {
-         slidesPerView: 4,
+         slidesPerView: 3,
       },
       1000: {
-         slidesPerView: 5,
+         slidesPerView: 3,
       },
    },
 });
