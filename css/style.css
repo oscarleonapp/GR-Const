@@ -429,11 +429,14 @@ section {
 
 .home .slide .content p {
   font-size: 1.4rem;
-  color: var(--blue);
-  line-height: 2;
-  padding: 1rem 0;
-  font-weight: bold;
+  /* color: var(--blue); */
+  line-height: 1.5;
+  padding: 1rem 1rem;
+  font-weight: 800;
   text-align: justify;
+  background: -webkit-gradient(radial, left top, right top, from(var(--white)), to(transparent));
+  background: linear-gradient(-90deg, var(--bg-section), transparent);
+  border-radius: 5px;
 }
 
 .home .swiper-button-next,
