@@ -154,7 +154,25 @@ section {
   border-radius: 5px;
 }
 
+.header .icons a {
+  height: 3rem;
+  width: 3rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  background: var(--light-bg);
+  color: var(--blue);
+  cursor: pointer;
+  text-align: center;
+  margin-left: .3rem;
+  border-radius: 5px;
+}
+
 .header .icons div:hover {
+  background: var(--blue);
+  color: var(--white);
+}
+
+.header .icons a:hover {
   background: var(--blue);
   color: var(--white);
 }
