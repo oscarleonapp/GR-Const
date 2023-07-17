@@ -490,6 +490,11 @@ section {
   right: 2.5rem;
 }
 
+.swiper-wrapper div img {
+  width: 140px;
+  height: 120px;
+}
+
 .about .row {
   display: -webkit-box;
   display: -ms-flexbox;
