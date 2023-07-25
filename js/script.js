@@ -88,8 +88,6 @@ var swiper = new Swiper(".blogs-slider", {
 
 var swiper = new Swiper(".logo-slider", {
    loop: true,
-   autoplay: true,
-   speed: 100,
    grabCursor: true,
    spaceBetween: 5,
    navigation: {
@@ -109,5 +107,10 @@ var swiper = new Swiper(".logo-slider", {
       1000: {
          slidesPerView: 4,
       },
+   },
+
+   autoplay: {
+      delay: 800,
+      disableOnInteraction: false,
    },
 });
