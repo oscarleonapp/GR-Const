@@ -89,9 +89,9 @@ var swiper = new Swiper(".blogs-slider", {
 var swiper = new Swiper(".logo-slider", {
    loop: true,
    autoplay: true,
+   speed: 100,
    grabCursor: true,
    spaceBetween: 5,
-   speed: 100,
    navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
