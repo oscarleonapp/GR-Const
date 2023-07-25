@@ -486,6 +486,12 @@ section {
   color: var(--blue);
 }
 
+.reviews .swiper-button-next::after,
+.reviews .swiper-button-prev::after {
+  font-size: 3rem;
+  color: var(--blue);
+}
+
 .home .swiper-button-prev {
   right: 2.5rem;
 }
@@ -738,6 +744,7 @@ section {
   text-align: center;
   line-height: 7.5rem;
 }
+
 
 .reviews .slide p {
   padding: 1.5rem;

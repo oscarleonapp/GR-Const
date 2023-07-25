@@ -47,8 +47,13 @@ var swiper = new Swiper(".home-slider", {
 
 var swiper = new Swiper(".reviews-slider", {
    loop: true,
+   autoplay: true,
    grabCursor: true,
    spaceBetween: 20,
+   navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+   },
    breakpoints: {
       640: {
          slidesPerView: 1,
@@ -64,6 +69,7 @@ var swiper = new Swiper(".reviews-slider", {
 
 var swiper = new Swiper(".blogs-slider", {
    loop: true,
+   autoplay: true,
    grabCursor: true,
    spaceBetween: 20,
    breakpoints: {
@@ -81,6 +87,7 @@ var swiper = new Swiper(".blogs-slider", {
 
 var swiper = new Swiper(".logo-slider", {
    loop: true,
+   autoplay: true,
    grabCursor: true,
    spaceBetween: 5,
    navigation: {
