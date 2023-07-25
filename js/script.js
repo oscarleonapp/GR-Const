@@ -108,9 +108,9 @@ var swiper = new Swiper(".logo-slider", {
          slidesPerView: 4,
       },
    },
-
    autoplay: {
       delay: 800,
       disableOnInteraction: false,
    },
+   touchMoveStopPropagation: true,
 });
