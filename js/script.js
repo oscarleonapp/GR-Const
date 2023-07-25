@@ -109,7 +109,7 @@ var swiper = new Swiper(".logo-slider", {
       },
    },
    autoplay: {
-      delay: 800,
+      delay: 1000,
       disableOnInteraction: false,
    },
    touchMoveStopPropagation: true,
