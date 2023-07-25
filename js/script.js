@@ -72,6 +72,7 @@ var swiper = new Swiper(".blogs-slider", {
    autoplay: true,
    grabCursor: true,
    spaceBetween: 20,
+
    breakpoints: {
       640: {
          slidesPerView: 1,
@@ -90,6 +91,7 @@ var swiper = new Swiper(".logo-slider", {
    autoplay: true,
    grabCursor: true,
    spaceBetween: 5,
+   speed: 100,
    navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
