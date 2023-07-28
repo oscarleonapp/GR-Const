@@ -48,6 +48,10 @@ section {
   padding: 5rem 10%;
 }
 
+.info .fa-phone {
+  color: #48B538;
+}
+
 .heading {
   margin-bottom: 3rem;
   font-size: 3rem;
