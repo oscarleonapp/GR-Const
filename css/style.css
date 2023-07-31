@@ -88,6 +88,14 @@ section {
   color: var(--white);
 }
 
+.contactame {
+  background-color: #48B538;
+}
+
+.contactame:hover {
+  background-color: #e7c143;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     top: 50%;
@@ -878,11 +886,11 @@ section {
 }
 
 .contact {
-  background: var(--black);
+  background: var(--bg-section);
 }
 
 .contact .heading {
-  color: var(--white);
+  color: var(--black);
 }
 
 .contact .row {
