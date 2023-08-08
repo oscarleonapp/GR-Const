@@ -1019,18 +1019,20 @@ section {
 
 .footer .links .btn {
   margin: .5rem;
+  background-color: var(--white);
+  color: #333;
 }
 
 .footer .credit {
   font-size: 1.3rem;
-  color: var(--black);
+  color: #333;
   /* text-transform: capitalize; */
   margin-top: 2rem;
   padding-top: 1rem;
 }
 
 .footer .credit span {
-  color: var(--yellow);
+  color: #5B81C6;
 }
 
 @media (max-width: 1200px) {
