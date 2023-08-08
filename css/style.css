@@ -1035,6 +1035,10 @@ section {
   color: #5B81C6;
 }
 
+.oscarleon {
+  color: #419434;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 1.5rem 2rem;
