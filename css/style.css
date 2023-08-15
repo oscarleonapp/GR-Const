@@ -1039,6 +1039,24 @@ section {
   color: #419434;
 }
 
+.whatapp-container{
+  display: grid;
+  grid-template-rows: 1;
+  justify-content: center;
+  align-content: center;
+  height: 400px;
+  min-width: 320;
+}
+
+.whatsapp-section{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+  color: #09244C;
+  font-size: 3rem;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 1.5rem 2rem;
