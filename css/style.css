@@ -1054,7 +1054,13 @@ section {
   justify-items: center;
   justify-self: center;
   color: #09244C;
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+.whatapp-container p{
+  justify-self: center;
+  align-self: center;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 1200px) {
