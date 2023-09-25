@@ -489,6 +489,11 @@ section {
   position: relative;
 }
 
+.home .slide .content img{
+  width: 182px;
+  height: 174px;
+}
+
 .home .slide .content h3 {
   font-size: 4rem;
   color: var(--green);
